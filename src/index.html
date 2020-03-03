@@ -6,8 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>crypto</title>
   </head>
-
   <body>
-    <main class="container"></main>
+  <main class="container flex">
+
+    <fieldset>
+   
+      <select id="currencySelect">
+        <option value="BTC">bitcoin</option>
+        <option value="EUR">euro</option>
+        <option value="USD">dollar</option>
+      </select>
+      <label for="">Currency1:</label><br>
+      <input type="text" id="currency" name="currency" value=""><br>
+    
+      <select id="currencySelect-convert">
+        <option value="BTC">bitcoin</option>
+        <option value="EUR">euro</option>
+        <option value="USD">dollar</option>
+      </select>
+      <label for="lname">Currency2:</label><br>
+      <input type="text" id="currency-convert" name="currency-convert" value=""><br><br>
+ 
+    </fieldset>
+   <button class="calculate">Calculate</button>
+   
+
+
+
+  </main>
+    
   </body>
 </html>
